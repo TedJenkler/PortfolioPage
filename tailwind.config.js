@@ -7,6 +7,7 @@ export default {
   theme: {
     fontFamily: {
       display: ['Ibarra Real Nova'],
+      p: ['Public Sans'],
     },
     extend: {
       colors: {
