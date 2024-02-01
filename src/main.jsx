@@ -5,6 +5,7 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from "react-router-dom"
 import ErrorPage from "../src/errorpage.jsx";
 import Contact from './Contact.jsx'
+import PIndex from "./portfolioindex.jsx"
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "contacts/:contactId",
     element: <Contact />,
+  },
+  {
+    path: "portfolio",
+    element: <PIndex />,
   },
 ]);
 
