@@ -1,5 +1,6 @@
 import React from 'react'
 import designo from "../assets/designo.webp"
+import { Link } from 'react-router-dom'
 
 function MultiPageSite() {
   return (
@@ -9,7 +10,7 @@ function MultiPageSite() {
             <h1 className='font-display mb-6'>Multi Page Website</h1>
             <p className='font-p mb-6'>(Getting Rebuilded in Tailwind)</p>
             <p className='font-p mb-6'>This project required me to build a fully responsive website to the designs provided. I used HTML5, along with Tailwind.</p>
-            <button className='border py-4 px-8'>VIEW PROJECT</button>
+            <Link to="/portfolio/multipagesite" className='border py-4 px-8'>VIEW PROJECT</Link>
         </div>
     </div>
   )

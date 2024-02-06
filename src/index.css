@@ -9,6 +9,18 @@ h1 {
   letter-spacing: -0.42px;
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 2.625rem;
+  letter-spacing: -0.35px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
 p {
   font-weight: 400;
   font-size: 16px;

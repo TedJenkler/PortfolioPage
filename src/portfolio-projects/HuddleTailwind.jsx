@@ -1,5 +1,6 @@
 import React from 'react'
 import huddle from "../assets/huddle-alternative.webp"
+import { Link } from 'react-router-dom'
 
 function HuddleTailwind() {
   return (
@@ -8,7 +9,7 @@ function HuddleTailwind() {
         <div className='py-6 border-t border-b'>
             <h1 className='font-display mb-6'>Huddle Tailwind</h1>
             <p className='font-p mb-6'>This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with Tailwind.</p>
-            <button className='border py-4 px-8'>VIEW PROJECT</button>
+            <Link to="/portfolio/huddletailwind" className='border py-4 px-8'>VIEW PROJECT</Link>
         </div>
     </div>
   )

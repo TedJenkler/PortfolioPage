@@ -1,7 +1,7 @@
 import './App.css'
 import AboutMe from './components/AboutMe'
 import AboutMeLink from './components/AboutMeLink'
-import Contact from './components/Contact'
+import ContactLink from './components/ContactLink'
 import Footer from './components/Footer'
 import Header from './components/Header'
 
@@ -11,7 +11,7 @@ function App() {
       <Header />
       <AboutMeLink />
       <AboutMe />
-      <Contact />
+      <ContactLink />
       <Footer />
     </div>
   )

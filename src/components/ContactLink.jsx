@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Contact() {
+function ContactLink() {
   return (
     <section className='px-8 mb-20 text-center' >
         <h1 className='font-display mb-10'>Interested in doing a project together?</h1>
@@ -9,4 +9,4 @@ function Contact() {
   )
 }
 
-export default Contact
+export default ContactLink

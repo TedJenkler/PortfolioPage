@@ -6,6 +6,9 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom"
 import ErrorPage from "../src/errorpage.jsx";
 import Contact from './Contact.jsx'
 import PIndex from "./portfolioindex.jsx"
+import ECommerceinner from './portfolio-projects/ECommerceinner.jsx'
+import HuddleTailwindinner from './portfolio-projects/HuddleTailwindinner.jsx'
+import MultiPageSiteinner from './portfolio-projects/MultiPageSiteinner.jsx'
 
 const router = createBrowserRouter([
   {
@@ -20,6 +23,18 @@ const router = createBrowserRouter([
   {
     path: "portfolio",
     element: <PIndex />,
+  },
+  {
+    path: "portfolio/ecommerce",
+    element: <ECommerceinner />,
+  },
+  {
+    path: "portfolio/huddletailwind",
+    element: <HuddleTailwindinner />,
+  },
+  {
+    path: "portfolio/multipagesite",
+    element: <MultiPageSiteinner />,
   },
 ]);
 
