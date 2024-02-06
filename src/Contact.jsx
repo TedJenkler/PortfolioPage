@@ -7,8 +7,7 @@ import ContactForm from './components/ContactForm'
 
 function Contact() {
   return (
-    <div className='w-screen h-screen'>
-        <Header />
+    <div className='w-screen h-full'>
         <div className='border-t border-b pt-6 pb-8 mx-8 mb-8'>
         <h1 className='font-display mb-6'>Get in Touch</h1>
         <p className='font-p mb-6'>
@@ -21,7 +20,6 @@ function Contact() {
         </div>
         </div>
         <ContactForm />
-        <Footer />
     </div>
   )
 }

@@ -1,6 +1,4 @@
 import React from 'react'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
 import screenshot from "../assets/designoscreenshot.png"
 import preview1 from "../assets/designo-desktop.webp"
 import preview2 from "../assets/designo-inner.webp"
@@ -11,8 +9,7 @@ import { Link } from 'react-router-dom'
 
 function MultiPageSiteinner() {
   return (
-    <div className='w-screen h-screen'>
-        <Header />
+    <div className='w-screen h-full'>
         <div className='mx-8'>
             <img className='mb-10' src={screenshot} alt='screenshot' />
         </div>
@@ -21,7 +18,7 @@ function MultiPageSiteinner() {
             <p className='font-p mb-6'>This project required me to build a fully responsive multipage site to the designs provided. I used HTML5, along with Tailwind and React for the areas that required interactivity.</p>
             <p className='font-p text-cyan'>Tailwind / Front End Development</p>
             <p className='font-p text-cyan mb-6'>HTML / TAILWIND / REACT</p>
-            <button className='border py-4 px-8'>VISIT WEBSITE</button>
+            <a href='https://tedjenkler.github.io/Multi-Page-Website/' className='border py-4 px-8'>VISIT WEBSITE</a>
         </div>
         <div className='mx-8'>
             <h2 className='font-display mb-7'>Project Background</h2>
@@ -43,7 +40,6 @@ function MultiPageSiteinner() {
             </div>
         </div>
         <ContactLink />
-        <Footer />
     </div>
   )
 }
