@@ -8,7 +8,7 @@ import ContactForm from './components/ContactForm'
 function Contact() {
   return (
     <div className='w-screen h-full'>
-        <div className='border-t border-b pt-6 pb-8 mx-8 mb-8'>
+        <div className='border-t border-b pt-6 pb-8 mx-8 mb-8 md:mx-10'>
         <h1 className='font-display mb-6'>Get in Touch</h1>
         <p className='font-p mb-6'>
             I’d love to hear about what you’re working on and how I could help. I’m currently looking for a new role and am open to a wide range of opportunities. My preference would be to find a position in a company in London. 

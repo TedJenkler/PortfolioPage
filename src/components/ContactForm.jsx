@@ -10,7 +10,7 @@ function ContactForm() {
         <input className='bg-light-grey mb-6 h-12 px-4' placeholder='email@example.com'></input>
         <label className='font-bold font-p mb-2'>Message</label>
         <textarea className='bg-light-grey mb-6 h-24 px-4 pt-2' placeholder='How can I help?'></textarea>
-        <button className='bg-dark-blue text-white py-4 px-8'>SEND MESSAGE</button>
+        <button className='bg-dark-blue text-white py-4 px-8 md:w-1/3'>SEND MESSAGE</button>
     </form>
   )
 }

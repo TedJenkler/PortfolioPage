@@ -5,9 +5,9 @@ import linkdin from "../assets/linkdinicon.png"
 
 function Footer() {
   return (
-    <footer className='bg-grey-dark-blue py-14 flex flex-col items-center text-center'>
+    <footer className='bg-grey-dark-blue py-14 flex flex-col items-center text-center md:flex-row md:px-10 md:justify-between md:h-20'>
         <img className='' src={logo} alt='logo' />
-        <ul className='text-white flex flex-col gap-8 font-p mb-10'>
+        <ul className='text-white flex flex-col gap-8 font-p mb-10 md:flex-row md:mb-0'>
             <li>Home</li>
             <li>Portfolio</li>
             <li>Contact Me</li>

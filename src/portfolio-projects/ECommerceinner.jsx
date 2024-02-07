@@ -10,15 +10,19 @@ import { Link } from 'react-router-dom'
 function ECommerceinner() {
   return (
     <div className='w-screen h-full'>
-        <div className='mx-8'>
+        <div className='mx-8 md:mx-10'>
             <img className='mb-10' src={screenshot} alt='screenshot' />
         </div>
-        <div className='mx-8 py-6 border-t border-b mb-12'>
-            <h1 className='font-display mb-6'>E-Commerce</h1>
-            <p className='font-p mb-6'>This project required me to build a fully responsive E-commerce page to the designs provided. I used HTML5, along with Tailwind and React for the areas that required interactivity.</p>
-            <p className='font-p text-cyan'>E-commerce / Front End Development</p>
-            <p className='font-p text-cyan mb-6'>HTML / TAILWIND / REACT</p>
-            <a href='https://tedjenkler.github.io/ecommerce-react-tailwind/' className='border py-4 px-8'>VISIT WEBSITE</a>
+        <div className='mx-8 py-6 border-t border-b mb-12 md:flex md:items-center md:justify-between'>
+            <div className='md:w-1/2'>
+                <h1 className='font-display mb-6'>E-Commerce</h1>
+                <p className='font-p mb-6'>This project required me to build a fully responsive E-commerce page to the designs provided. I used HTML5, along with Tailwind and React for the areas that required interactivity.</p>
+            </div>
+            <div className='md:flex md:flex-col'>
+                <p className='font-p text-cyan'>E-commerce / Front End Development</p>
+                <p className='font-p text-cyan mb-6'>HTML / TAILWIND / REACT</p>
+                <a href='https://tedjenkler.github.io/ecommerce-react-tailwind/' className='border py-4 px-8'>VISIT WEBSITE</a>
+            </div>
         </div>
         <div className='mx-8'>
             <h2 className='font-display mb-7'>Project Background</h2>
@@ -27,15 +31,23 @@ function ECommerceinner() {
             <img className='mb-8' src={preview1} alt='preview1' />
             <img className='mb-16' src={preview2} alt='preview2' />
             <div className='flex mb-16'>
-                <Link to="/portfolio/multipagesite" className='flex flex-col w-1/2 py-6 border-t border-r border-b'>
-                    <img className='mb-4 h-4 w-2' src={arrowleft} alt='arrowleft' />
-                    <h3 className='font-display'>Multi Page Site</h3>
-                    <p>Previous Project</p>
+                <Link to="/portfolio/multipagesite" className='flex flex-col w-1/2 py-6 border-t border-r border-b md:flex-row md:items-center md:gap-6'>
+                    <div className=''>
+                        <img className='mb-4 h-4 w-2' src={arrowleft} alt='arrowleft' />
+                    </div>
+                    <div className='md:flex md:flex-col'>
+                        <h3 className='font-display'>Multi Page Site</h3>
+                        <p>Previous Project</p>
+                    </div>
                 </Link>
-                <Link to="/portfolio/huddletailwind" className='flex flex-col items-end w-1/2 py-6 border-t border-b'>
-                    <img className='mb-4 h-4 w-2' src={arrowright} alt='arrowleft' />
-                    <h3 className='font-display'>Huddle Tailwind</h3>
-                    <p>Next Project</p>
+                <Link to="/portfolio/huddletailwind" className='flex flex-col items-end w-1/2 py-6 border-t border-b md:flex-row-reverse md:items-center md:gap-6'>
+                    <div className=''>
+                        <img className='mb-4 h-4 w-2' src={arrowright} alt='arrowleft' />
+                    </div>
+                    <div className='md:flex md:flex-col'>
+                        <h3 className='font-display'>Huddle Tailwind</h3>
+                        <p>Next Project</p>
+                    </div>
                 </Link>
             </div>
         </div>
