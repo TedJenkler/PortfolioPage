@@ -3,10 +3,10 @@ import profile from "../assets/replacewithimgofme2.jpg"
 
 function AboutMe() {
   return (
-    <section className='mx-8 mb-28'>
-        <img className='mb-8' src={profile} alt='aboutme' />
-        <div className='pt-8 pb-12 border-t border-b'>
-            <h1 className='font-display mb-6'>About Me</h1>
+    <section className='mx-8 mb-28 md:flex md:mx-10 md:mb-24'>
+        <img className='mb-8 w-2/5' src={profile} alt='aboutme' />
+        <div className='pt-8 pb-12 border-t border-b md:ml-16 md:py-12'>
+            <h1 className='font-display mb-6 md:mb-7'>About Me</h1>
             <p className='font-p mb-6'>
                 I’m a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML,
                  using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required.
