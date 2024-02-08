@@ -3,7 +3,7 @@ import profile from "../assets/replacewithimgofme2.jpg"
 
 function AboutMe() {
   return (
-    <section className='mx-8 mb-28 md:flex md:mx-10 md:mb-24'>
+    <section className='mx-8 mb-28 md:flex md:mx-10 md:mb-24 lg:mx-40'>
         <img className='mb-8 w-2/5' src={profile} alt='aboutme' />
         <div className='pt-8 pb-12 border-t border-b md:ml-16 md:py-12'>
             <h1 className='font-display mb-6 md:mb-7'>About Me</h1>

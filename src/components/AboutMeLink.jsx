@@ -4,7 +4,7 @@ import downarrow from "../assets/downarrow.png"
 
 function AboutMeLink() {
   return (
-    <section className='relative mx-8 md:mx-10 md:mb-24'>
+    <section className='relative mx-8 md:mx-10 md:mb-24 lg:mx-40'>
         <img className='mb-6 w-full' src={profile} alt='TeodorJenkler'/>
         <div className='md:absolute md:bottom-0 md:bg-white md:w-3/4 md:pt-14'>
           <h1 className='font-display mb-8 md:mb-10'>Hey, I’m Ted Jenkler and I love building beautiful websites</h1>

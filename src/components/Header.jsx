@@ -10,7 +10,7 @@ function Header() {
     console.log(toggleMenu)
   return (
     <>
-    <nav className='relative h-8 mt-8 mx-8 flex justify-between mb-10 md:mx-10 md:mt-16 md:mb-14'>
+    <nav className='relative h-8 mt-8 mx-8 flex justify-between mb-10 md:mx-10 md:mt-16 md:mb-14 lg:mx-40'>
         <Link to="/"><img className='h-full' src={logo} alt='logo' /></Link>
         <img onClick={() => {setToggleMenu(!toggleMenu)}} className='h-3 md:hidden' src={burger} alt='mobilemenu' />
         <ul className='hidden md:flex gap-10 font-p'>

@@ -5,13 +5,15 @@ import linkdin from "../assets/linkdinicon.png"
 
 function Footer() {
   return (
-    <footer className='bg-grey-dark-blue py-14 flex flex-col items-center text-center md:flex-row md:px-10 md:justify-between md:h-20'>
+    <footer className='bg-grey-dark-blue py-14 flex flex-col items-center text-center md:flex-row md:px-10 md:justify-between md:h-20 lg:px-40'>
+      <div className='md:flex md:items-center md:gap-12'>
         <img className='' src={logo} alt='logo' />
         <ul className='text-white flex flex-col gap-8 font-p mb-10 md:flex-row md:mb-0'>
             <li>Home</li>
             <li>Portfolio</li>
             <li>Contact Me</li>
         </ul>
+      </div>
         <div className='flex gap-4'>
             <img src={github} alt='githublink' />
             <img src={linkdin} alt='linkdinlink' />
