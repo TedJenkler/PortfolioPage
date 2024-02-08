@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from "../assets/replacewithimgofme.jpg"
+import profile from "../assets/replacewithimgofme2.png"
 import downarrow from "../assets/downarrow.png"
 
 function AboutMeLink() {
