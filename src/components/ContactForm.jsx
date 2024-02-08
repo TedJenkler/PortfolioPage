@@ -2,7 +2,7 @@ import React from 'react'
 
 function ContactForm() {
   return (
-    <form className='flex flex-col mx-8 mb-20'>
+    <form className='flex flex-col mx-8 mb-20 lg:mx-40'>
         <h1 className='font-display mb-6'>Contact Me</h1>
         <label className='font-bold font-p mb-2'>Name</label>
         <input className='bg-light-grey mb-6 h-12 px-4' placeholder='Jane Appleseed'></input>

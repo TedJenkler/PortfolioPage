@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function HuddleTailwind() {
   return (
-    <div className='mx-8 mb-16 md:flex md:flex-row-reverse md:mx-10 md:items-center'>
+    <div className='mx-8 mb-16 md:flex md:flex-row-reverse md:mx-10 md:items-center lg:mx-40'>
         <img className='mb-8 md:w-1/2 md:ml-16' src={huddle} alt='huddle tailwind' />
         <div className='py-6 border-t border-b md:pb-12'>
             <h1 className='font-display mb-6'>Huddle Tailwind</h1>
