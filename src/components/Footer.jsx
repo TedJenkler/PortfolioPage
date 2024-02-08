@@ -16,8 +16,8 @@ function Footer() {
         </ul>
       </div>
         <div className='flex gap-4'>
-            <img src={github} alt='githublink' />
-            <img src={linkdin} alt='linkdinlink' />
+            <a href='https://github.com/TedJenkler'><img src={github} alt='githublink' /></a>
+            <a href='https://www.linkedin.com/in/tedjenklerwebdeveloper/'><img src={linkdin} alt='linkdinlink' /></a>
         </div>
     </footer>
   )

@@ -15,8 +15,8 @@ function Contact() {
             But I’m also happy to hear about opportunites that don’t fit that description. I’m a hard-working and positive person who will always approach each task with a sense of purpose and attention to detail. Please do feel free to check out my online profiles below and get in touch using the form.
         </p>
         <div className='flex gap-4'>
-            <img src={github} alt='githublink' />
-            <img src={linkdin} alt='linkdinlink' />
+          <a href='https://github.com/TedJenkler'><img src={github} alt='githublink' /></a>
+          <a href='https://www.linkedin.com/in/tedjenklerwebdeveloper/'><img src={linkdin} alt='linkdinlink' /></a>
         </div>
         </div>
         <ContactForm />
