@@ -9,7 +9,7 @@ function ECommerce() {
         <div className='py-6 border-t border-b md:pb-12'>
             <h1 className='font-display mb-6'>E-commerce</h1>
             <p className='font-p mb-6'>This project required me to build a fully responsive E-commerce page to the designs provided. I used HTML5, along with Tailwind and React for the areas that required interactivity.</p>
-            <Link to="/portfolio/ecommerce" className='border py-4 px-8'>VIEW PROJECT</Link>
+            <Link to="/portfolio/ecommerce" className='border py-4 px-8 hover:bg-grey-dark-blue hover:text-white'>VIEW PROJECT</Link>
         </div>
     </div>
   )

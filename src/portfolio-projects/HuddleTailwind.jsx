@@ -9,7 +9,7 @@ function HuddleTailwind() {
         <div className='py-6 border-t border-b md:pb-12'>
             <h1 className='font-display mb-6'>Huddle Tailwind</h1>
             <p className='font-p mb-6'>This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with Tailwind.</p>
-            <Link to="/portfolio/huddletailwind" className='border py-4 px-8'>VIEW PROJECT</Link>
+            <Link to="/portfolio/huddletailwind" className='border py-4 px-8 hover:bg-grey-dark-blue hover:text-white'>VIEW PROJECT</Link>
         </div>
     </div>
   )

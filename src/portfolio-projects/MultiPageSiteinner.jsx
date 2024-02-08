@@ -21,7 +21,7 @@ function MultiPageSiteinner() {
             <div className='md:flex md:flex-col'>
                 <p className='font-p text-cyan'>Tailwind / Front End Development</p>
                 <p className='font-p text-cyan mb-6'>HTML / TAILWIND / REACT</p>
-                <a href='https://tedjenkler.github.io/Multi-Page-Website/' className='border py-4 px-8'>VISIT WEBSITE</a>
+                <a href='https://tedjenkler.github.io/Multi-Page-Website/' className='border py-4 px-8 hover:bg-grey-dark-blue hover:text-white'>VISIT WEBSITE</a>
             </div>
         </div>
         <div className='mx-8 lg:mx-40'>

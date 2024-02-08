@@ -1,9 +1,10 @@
 import React from 'react'
 import profile from "../assets/replacewithimgofme.png"
+import { Link } from 'react-router-dom'
 
 function AboutMe() {
   return (
-    <section className='mx-8 mb-28 md:flex md:mx-10 md:mb-24 lg:mx-40'>
+    <section id='aboutme' className='mx-8 mb-28 md:flex md:mx-10 md:mb-24 lg:mx-40'>
         <img className='mb-8 w-2/5 rounded-full' src={profile} alt='aboutme' />
         <div className='pt-8 pb-12 border-t border-b md:ml-16 md:py-12'>
             <h1 className='font-display mb-6 md:mb-7'>About Me</h1>
@@ -13,7 +14,7 @@ function AboutMe() {
                   I’m based in London, UK, but I’m happy working remotely and have experience in remote teams. When I’m not coding, you’ll find me outdoors.
                    I love being out in nature whether that’s going for a walk, run or cycling. I’d love you to check out my work.
             </p>
-            <button className='border py-4 px-8'>GO TO PORTFOLIO</button>
+            <Link to="/portfolio" className='border py-4 px-8 hover:bg-grey-dark-blue hover:text-white'>GO TO PORTFOLIO</Link>
         </div>
     </section>
   )

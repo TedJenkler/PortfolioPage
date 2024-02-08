@@ -10,7 +10,7 @@ function MultiPageSite() {
             <h1 className='font-display mb-6'>Multi Page Website</h1>
             <p className='font-p mb-6'>(Getting Rebuilded in Tailwind)</p>
             <p className='font-p mb-6'>This project required me to build a fully responsive website to the designs provided. I used HTML5, along with Tailwind.</p>
-            <Link to="/portfolio/multipagesite" className='border py-4 px-8'>VIEW PROJECT</Link>
+            <Link to="/portfolio/multipagesite" className='border py-4 px-8 hover:bg-grey-dark-blue hover:text-white'>VIEW PROJECT</Link>
         </div>
     </div>
   )
